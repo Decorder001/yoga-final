@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the yoga services offered by Journey Within Yoga, including various class levels, personal training, and timetables with pricing.">
+    <title>Advanced yoga series</title>
+    <link rel="stylesheet" href="advanced.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header with navigation -->
+    <header>
+        <div class="header">
+            <img src="_c2ecb80d-df70-459d-9ffe-41893627eb12-removebg-preview.png" alt="">
+            <ul>
+    
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="contact.html"><i class="fa-solid fa-bars" id="menuIcon"></i></a>
+            </ul>
+    
+        </div>
+
+    </header>
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1><p>Advanced Yoga Classes</p></h1>
+    </div>
+
+    <!-- Section Content -->
+    <div class="section-content">
+        <h1>Master Your Yoga Practice</h1>
+        <p>Our Advanced Yoga Classes are designed for experienced practitioners looking to push their boundaries. These sessions focus on challenging asanas, advanced pranayama (breathing techniques), and in-depth meditation practices.</p>
+    </div>
+
+    <!-- Advanced Yoga Poses -->
+    <div class="pose-container">
+        <div class="pose-box">
+            <img src="yoga pose 2 my.png" alt="Scorpion Pose">
+            <h3>Scorpion Pose (Vrschikasana)</h3>
+            <p>This pose challenges your balance and flexibility while strengthening your core, arms, and shoulders.</p>
+        </div>
+
+        <div class="pose-box">
+            <img src="mayurasanm.webp" alt="Peacock Pose">
+            <h3>Peacock Pose (Mayurasana)</h3>
+            <p>A balance-focused arm pose that requires wrist, arm, and core strength, with an intense body engagement.</p>
+        </div>
+
+        <div class="pose-box">
+            <img src="Kapotasana.jpg" alt="King Pigeon Pose">
+            <h3>King Pigeon Pose (Kapotasana)</h3>
+            <p>One of the deepest backbends, this pose opens the chest and improves spine flexibility.</p>
+        </div>
+
+        <div class="pose-box">
+            <img src="titibhasan.jpg" alt="Firefly Pose">
+            <h3>Firefly Pose (Tittibhasana)</h3>
+            <p>Firefly pose builds arm strength and balance while stretching the hamstrings.</p>
+        </div>
+    </div>
+
+    <!-- Enrollment Form -->
+    <div class="enroll-container">
+        <h3>Enroll in the Advanced Course</h3>
+        <form class="enroll-form" id="enrollForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="experience">Your Experience with Yoga</label>
+            <textarea id="experience" name="experience" placeholder="Tell us about your yoga journey" rows="4"></textarea>
+
+            <button type="submit">Enroll Now</button>
+
+            <p id="errorMessage" class="error"></p>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <img src="_c2ecb80d-df70-459d-9ffe-41893627eb12-removebg-preview.png" alt="Journey Within Yoga Logo">
+        <div class="footer-content">
+            <p>&copy; 2024 Journey Within Yoga. All rights reserved.</p>
+            <p>Designed and developed by Harish Suthar</p>
+            <nav>
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a> | 
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Form Validation -->
+    <script>
+        document.getElementById("enrollForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Clear previous error message
+            document.getElementById("errorMessage").innerText = "";
+
+            // Get form values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var experience = document.getElementById("experience").value;
+
+            // Simple validation
+            if (name === "" || email === "" || phone === "" || experience === "") {
+                document.getElementById("errorMessage").innerText = "Please fill out all fields.";
+            } else {
+                // If validation is successful, show confirmation (you can replace this with actual form submission)
+                alert("Thank you for enrolling, " + name + "! We will contact you shortly.");
+                
+                // Optionally, clear the form after successful submission
+                document.getElementById("enrollForm").reset();
+            }
+        });
+    </script>
+
+    
+</body>
+</html>

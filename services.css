@@ -1,0 +1,373 @@
+/* General Page Styling
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #d3a5a5;
+    padding: 15px 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none; /* Remove underline from navigation links */
+    /* color: white;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Remove underline from all text links */
+/* a {
+    text-decoration: none;
+    color: inherit;
+} */
+
+/* Services Section */
+/* .services-section {
+    padding: 60px 0;
+    text-align: center;
+    color: #555;
+    background-color: #ffffff;
+}
+
+.services-section .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-section h2 {
+    font-size: 2.8em;
+    color: #d3a5a5;
+    margin-bottom: 30px;
+    text-decoration: none; No underline for heading */
+/* }
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    color: #d3a5a5;
+    margin-bottom: 15px;
+    text-decoration: none; /* No underline for subheading */
+/* }
+
+.service ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Timetable Section */
+/* .timetable-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+/* } */ */ */
+
+/* .timetable-section h2 {
+    font-size: 2.8em;
+    color: #d3a5a5;
+    margin-bottom: 30px;
+    text-decoration: none; No underline for heading
+}
+
+.timetable-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px; */
+/* }
+
+.timetable-section table, th, td {
+    border: 1px solid #ddd;
+}
+
+.timetable-section th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.timetable-section th {
+    background-color: #d3a5a5;
+    color: white; */
+/* }
+
+.timetable-section td {
+    background-color: #fff;
+} */
+
+/* Footer Styling */
+/* .site-footer {
+    background-color: #614b4b;
+    padding: 20px 0;
+    text-align: center;
+    color: #d3a5a5;
+    font-size: 0.9em;
+    border-top: 1px solid #d3a5a5;
+} */
+
+/* .footer-content p {
+    margin: 5px 0;
+    text-decoration: none; /* No underline */
+/* } */ */ */
+/* 
+.footer-content nav {
+    margin-top: 10px;
+}
+
+.footer-content a {
+    color: #d3a5a5; */
+    /* text-decoration: none; /* No underline */
+    /* margin: 0 5px;
+} */
+
+/* .footer-content a:hover { */
+    /* text-decoration: underline; /* Add underline on hover */
+/* } */ */ */ */ */
+
+
+/* General Page Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(13, 6, 3, 0));
+    /* Highest opacity to transparent */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.header img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    /* box-shadow: 5px 5px 5px #ffa857; */
+    margin-left: 15px;
+    filter: drop-shadow(2px 2px 20px #d2b080);
+    opacity: 1;
+    /* align-items: center; */
+    align-self: center;
+}
+
+.header ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+}
+
+.header ul li {
+    list-style: none;
+    /* color: black; */
+    font-size: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    /* background-color: #d2b080; */
+    color: #ffa857;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.header ul li a:hover {
+    padding: 3px;
+    color: black;
+    background-color: #ffa857;
+    border-radius: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+/* Remove underline from text links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Services Section */
+.services-section {
+    padding: 60px 0;
+    text-align: center;
+    color: #555;
+    background-color: #ffffff;
+}
+
+.services-section .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services-section h2 {
+    font-size: 2.8em;
+    color: #d3a5a5;
+    margin-bottom: 30px;
+    text-decoration: underline; /* Keep underline for main headings */
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    color: #d3a5a5;
+    margin-bottom: 15px;
+    text-decoration: none; /* Remove underline from subheadings */
+}
+
+.service ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Timetable Section */
+.timetable-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.timetable-section h2 {
+    font-size: 2.8em;
+    color: #d3a5a5;
+    margin-bottom: 30px;
+    text-decoration: underline; /* Keep underline for main headings */
+}
+
+.timetable-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.timetable-section table, th, td {
+    border: 1px solid #ddd;
+}
+
+.timetable-section th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.timetable-section th {
+    background-color: #d3a5a5;
+    color: white;
+}
+
+.timetable-section td {
+    background-color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: rgb(18, 15, 15);
+}
+
+.site-footer img {
+    filter: drop-shadow(2px 2px 20px #d2b080);
+    height: 250px;
+    width: 20%;
+
+}
+
+.site-footer {
+    background-color: #614b4b; /* Adjust to match your site's color theme */
+    padding: 20px 0;
+    text-align: center;
+    color: #d3a5a5; /* Color for text to match the theme */
+    font-size: 0.9em;
+    border-top: 1px solid #d3a5a5; /* Optional: adds a subtle top border */
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content nav {
+    margin-top: 10px;
+}
+
+.footer-content a {
+    color: #d3a5a5;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
